@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>TechScope</title>
+  </head>
+  <body>
+    <!-- хедер і футер для мами -->
+    <header>
+      <!-- логотип, навігація, subscribe -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        width="40"
+        height="40"
+      >
+        <path
+          d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c-35.3 0-64 28.7-64 64l-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 56-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 56-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0c0 35.3 28.7 64 64 64l0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 56 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 56 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40c35.3 0 64-28.7 64-64l40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-56 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-56 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0c0-35.3-28.7-64-64-64l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-56 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-56 0 0-40zM160 128l192 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-192c0-17.7 14.3-32 32-32zm192 32l-192 0 0 192 192 0 0-192z"
+        />
+      </svg>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>News</li>
+          <li>statistic</li>
+        </ul>
+      </nav>
+      <button type="submit" class="h-btn">Subscribe</button>
+    </header>
+    <main>
+      <section class="hero">
+        <!-- основна секція -->
+        <div class="slider-container">
+          <!-- Slider List Items -->
+          <div class="slider-wrapper swiper-wrapper">
+            <div class="slider-item swiper-slide">
+              <div class="slide-content">
+                <h3 class="slide-subtitle">Slide 01</h3>
+                <h2 class="slide-title">
+                  Lorem ipsum dolor sit amet elit delectus!
+                </h2>
+                <p class="slide-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  repellendus harum voluptates.
+                </p>
+                <a href="#" class="slide-button"><span>Learn More</span></a>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slide-content">
+                <h3 class="slide-subtitle">Slide 02</h3>
+                <h2 class="slide-title">
+                  Sed ut perspiciatis unde omnis iste natus error sit!
+                </h2>
+                <p class="slide-description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti.
+                </p>
+                <a href="#" class="slide-button"><span>Learn More</span></a>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slide-content">
+                <h3 class="slide-subtitle">Slide 03</h3>
+                <h2 class="slide-title">
+                  Nemo enim ipsam voluptatem quia voluptas!
+                </h2>
+                <p class="slide-description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt.
+                </p>
+                <a href="#" class="slide-button"><span>Learn More</span></a>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slide-content">
+                <h3 class="slide-subtitle">Slide 04</h3>
+                <h2 class="slide-title">
+                  Neque porro quisquam est qui dolorem!
+                </h2>
+                <p class="slide-description">
+                  Quis autem vel eum iure reprehenderit qui in ea voluptate
+                  velit esse quam nihil molestiae consequatur.
+                </p>
+                <a href="#" class="slide-button"><span>Learn More</span></a>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slide-content">
+                <h3 class="slide-subtitle">Slide 05</h3>
+                <h2 class="slide-title">
+                  Quis autem velum iure reprehen derit qui voluptate!
+                </h2>
+                <p class="slide-description">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit.
+                </p>
+                <a href="#" class="slide-button"><span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Pagination -->
+          <div class="slider-controls">
+            <ul class="slider-pagination">
+              <div class="slider-indicator"></div>
+              <li class="slider-tab current">
+                Lorem ipsum doloriums viconsetur
+              </li>
+              <li class="slider-tab">Ipsum leositea pellentes nisiutoret</li>
+              <li class="slider-tab">Aenean consectetur blandit dictum</li>
+              <li class="slider-tab">Vestibulum antea primis faucibs</li>
+              <li class="slider-tab">Molestas minus conse alquid sed</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Linking Swiper Script -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      </section>
+      <section class="slider">
+        <ul class="slider">
+          <li
+            class="item item1"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1562624475-96c2bc08fab9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxODI2OTF8&ixlib=rb-4.0.3&q=85&width=700');
+            "
+          >
+            <span>Prague</span>
+          </li>
+          <li
+            class="item item2"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1534283844880-d5fd2ddd2cc9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxODI5OTN8&ixlib=rb-4.0.3&q=85&width=700');
+            "
+          >
+            <span>London</span>
+          </li>
+          <li
+            class="item item3"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1511745235279-2f7276d5ba65?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxODMwNTh8&ixlib=rb-4.0.3&q=85&width=700');
+            "
+          >
+            <span>New York</span>
+          </li>
+          <li
+            class="item item4"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1560930950-5cc20e80e392?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxODI1OTd8&ixlib=rb-4.0.3&q=85&width=700');
+            "
+          >
+            <span>Berlin</span>
+          </li>
+        </ul>
+        <!-- слайдер -->
+      </section>
+      <section class="last-news">
+        <h3 class="title-sec">Last news</h3>
+        <!-- останні новини -->
+        <div class="news-container">
+          <div class="card1">
+            <div class="header">
+              <div class="image">
+                <span class="tag">News</span>
+              </div>
+              <div class="date"></div>
+            </div>
+            <div class="info">
+              <a rel="noopener noreferrer" href="#" class="block">
+                <span class="title"
+                  >Facere ipsa nulla corrupti praesentium
+                </span>
+              </a>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat, excepturi. Lorem ipsum dolor sit ...
+              </p>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="header">
+              <div class="image">
+                <span class="tag">News</span>
+              </div>
+              <div class="date"></div>
+            </div>
+            <div class="info">
+              <a rel="noopener noreferrer" href="#" class="block">
+                <span class="title"
+                  >Facere ipsa nulla corrupti praesentium
+                </span>
+              </a>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat, excepturi. Lorem ipsum dolor sit ...
+              </p>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="header">
+              <div class="image">
+                <span class="tag">News</span>
+              </div>
+              <div class="date"></div>
+            </div>
+            <div class="info">
+              <a rel="noopener noreferrer" href="#" class="block">
+                <span class="title"
+                  >Facere ipsa nulla corrupti praesentium
+                </span>
+              </a>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat, excepturi. Lorem ipsum dolor sit ...
+              </p>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="header">
+              <div class="image">
+                <span class="tag">News</span>
+              </div>
+              <div class="date"></div>
+            </div>
+            <div class="info">
+              <a rel="noopener noreferrer" href="#" class="block">
+                <span class="title"
+                  >Facere ipsa nulla corrupti praesentium
+                </span>
+              </a>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat, excepturi. Lorem ipsum dolor sit ...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="statistic">
+        <h3 class="title-sec">Our projects</h3>
+        <!-- щось по типу статистики по типу: найкраща відеокарта 2025 -->
+        <div class="proj-container">
+          <div class="card">
+            <div class="card__img">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 128 128"
+              >
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st1"
+                ></rect>
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st53"
+                ></rect>
+                <polygon
+                  points="116,62 116,35.4 38.1,18 22.1,18 5.8,91.3 76.2,107 106,107"
+                  class="st16"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st1"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st53"
+                ></polygon>
+                <g>
+                  <rect y="34" x="20" width="80" height="58" class="st7"></rect>
+                  <g>
+                    <polygon
+                      points="100.2,92 73.1,44.2 51.2,75.5 40,58.7 20.2,92 39.7,92"
+                      class="st9"
+                    ></polygon>
+                    <circle r="11" cy="52" cx="57" class="st18"></circle>
+                    <polygon
+                      points="40,58.5 31.6,72.6 34.6,78.2 37.9,75.2 43.5,79.9 47,78.2 51,75.2"
+                      class="st1"
+                    ></polygon>
+                    <path
+                      d="M57.7,66c0,0,4.1,7.2,4.3,6.6c0.2-0.6,6.1-5.6,6.1-5.6l6.9,3.6l1.5-10.3L88.9,72L73.1,44.1L57.7,66z"
+                      class="st1"
+                    ></path>
+                    <polygon
+                      points="73.1,44.2 83.6,92 100.2,92"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="100.2,91.9 73.1,44.1 39.7,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polyline
+                      points="51.2,75.4 40,58.5 20.2,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="51.2,75.4 40,58.5 47,81.3"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="51.5,91.9 67.1,70.5 80.4,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="72.3,92 67.1,70.7 80.4,92"
+                      class="st15"
+                    ></polygon>
+                  </g>
+                  <rect
+                    y="34"
+                    x="20"
+                    width="80"
+                    height="58"
+                    class="st53"
+                  ></rect>
+                </g>
+                <polygon points="111,37 97,37 97,23" class="st18"></polygon>
+                <polygon points="111,37 97,37 97,23" class="st53"></polygon>
+              </svg>
+            </div>
+            <div class="card__subtitle">Type of work</div>
+            <div class="card__wrapper">
+              <div class="card__title">Project name</div>
+              <div class="card__icon">
+                <svg
+                  color="rgb(224, 223, 220)"
+                  style="
+                    user-select: none;
+                    width: 100%;
+                    height: 100%;
+                    display: inline-block;
+                    fill: rgb(224, 223, 220);
+                    flex-shrink: 0;
+                    cursor: auto;
+                  "
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g color="rgb(224, 223, 220)">
+                    <circle opacity="0.2" r="96" cy="128" cx="128"></circle>
+                    <circle
+                      stroke-width="16"
+                      stroke-miterlimit="10"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      r="96"
+                      cy="128"
+                      cx="128"
+                    ></circle>
+                    <polyline
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      points="134.1 161.9 168 128 134.1 94.1"
+                    ></polyline>
+                    <line
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      y2="128"
+                      x2="168"
+                      y1="128"
+                      x1="88"
+                    ></line>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 128 128"
+              >
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st1"
+                ></rect>
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st53"
+                ></rect>
+                <polygon
+                  points="116,62 116,35.4 38.1,18 22.1,18 5.8,91.3 76.2,107 106,107"
+                  class="st16"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st1"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st53"
+                ></polygon>
+                <g>
+                  <rect y="34" x="20" width="80" height="58" class="st7"></rect>
+                  <g>
+                    <polygon
+                      points="100.2,92 73.1,44.2 51.2,75.5 40,58.7 20.2,92 39.7,92"
+                      class="st9"
+                    ></polygon>
+                    <circle r="11" cy="52" cx="57" class="st18"></circle>
+                    <polygon
+                      points="40,58.5 31.6,72.6 34.6,78.2 37.9,75.2 43.5,79.9 47,78.2 51,75.2"
+                      class="st1"
+                    ></polygon>
+                    <path
+                      d="M57.7,66c0,0,4.1,7.2,4.3,6.6c0.2-0.6,6.1-5.6,6.1-5.6l6.9,3.6l1.5-10.3L88.9,72L73.1,44.1L57.7,66z"
+                      class="st1"
+                    ></path>
+                    <polygon
+                      points="73.1,44.2 83.6,92 100.2,92"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="100.2,91.9 73.1,44.1 39.7,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polyline
+                      points="51.2,75.4 40,58.5 20.2,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="51.2,75.4 40,58.5 47,81.3"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="51.5,91.9 67.1,70.5 80.4,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="72.3,92 67.1,70.7 80.4,92"
+                      class="st15"
+                    ></polygon>
+                  </g>
+                  <rect
+                    y="34"
+                    x="20"
+                    width="80"
+                    height="58"
+                    class="st53"
+                  ></rect>
+                </g>
+                <polygon points="111,37 97,37 97,23" class="st18"></polygon>
+                <polygon points="111,37 97,37 97,23" class="st53"></polygon>
+              </svg>
+            </div>
+            <div class="card__subtitle">Type of work</div>
+            <div class="card__wrapper">
+              <div class="card__title">Project name</div>
+              <div class="card__icon">
+                <svg
+                  color="rgb(224, 223, 220)"
+                  style="
+                    user-select: none;
+                    width: 100%;
+                    height: 100%;
+                    display: inline-block;
+                    fill: rgb(224, 223, 220);
+                    flex-shrink: 0;
+                    cursor: auto;
+                  "
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g color="rgb(224, 223, 220)">
+                    <circle opacity="0.2" r="96" cy="128" cx="128"></circle>
+                    <circle
+                      stroke-width="16"
+                      stroke-miterlimit="10"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      r="96"
+                      cy="128"
+                      cx="128"
+                    ></circle>
+                    <polyline
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      points="134.1 161.9 168 128 134.1 94.1"
+                    ></polyline>
+                    <line
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      y2="128"
+                      x2="168"
+                      y1="128"
+                      x1="88"
+                    ></line>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 128 128"
+              >
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st1"
+                ></rect>
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st53"
+                ></rect>
+                <polygon
+                  points="116,62 116,35.4 38.1,18 22.1,18 5.8,91.3 76.2,107 106,107"
+                  class="st16"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st1"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st53"
+                ></polygon>
+                <g>
+                  <rect y="34" x="20" width="80" height="58" class="st7"></rect>
+                  <g>
+                    <polygon
+                      points="100.2,92 73.1,44.2 51.2,75.5 40,58.7 20.2,92 39.7,92"
+                      class="st9"
+                    ></polygon>
+                    <circle r="11" cy="52" cx="57" class="st18"></circle>
+                    <polygon
+                      points="40,58.5 31.6,72.6 34.6,78.2 37.9,75.2 43.5,79.9 47,78.2 51,75.2"
+                      class="st1"
+                    ></polygon>
+                    <path
+                      d="M57.7,66c0,0,4.1,7.2,4.3,6.6c0.2-0.6,6.1-5.6,6.1-5.6l6.9,3.6l1.5-10.3L88.9,72L73.1,44.1L57.7,66z"
+                      class="st1"
+                    ></path>
+                    <polygon
+                      points="73.1,44.2 83.6,92 100.2,92"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="100.2,91.9 73.1,44.1 39.7,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polyline
+                      points="51.2,75.4 40,58.5 20.2,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="51.2,75.4 40,58.5 47,81.3"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="51.5,91.9 67.1,70.5 80.4,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="72.3,92 67.1,70.7 80.4,92"
+                      class="st15"
+                    ></polygon>
+                  </g>
+                  <rect
+                    y="34"
+                    x="20"
+                    width="80"
+                    height="58"
+                    class="st53"
+                  ></rect>
+                </g>
+                <polygon points="111,37 97,37 97,23" class="st18"></polygon>
+                <polygon points="111,37 97,37 97,23" class="st53"></polygon>
+              </svg>
+            </div>
+            <div class="card__subtitle">Type of work</div>
+            <div class="card__wrapper">
+              <div class="card__title">Project name</div>
+              <div class="card__icon">
+                <svg
+                  color="rgb(224, 223, 220)"
+                  style="
+                    user-select: none;
+                    width: 100%;
+                    height: 100%;
+                    display: inline-block;
+                    fill: rgb(224, 223, 220);
+                    flex-shrink: 0;
+                    cursor: auto;
+                  "
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g color="rgb(224, 223, 220)">
+                    <circle opacity="0.2" r="96" cy="128" cx="128"></circle>
+                    <circle
+                      stroke-width="16"
+                      stroke-miterlimit="10"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      r="96"
+                      cy="128"
+                      cx="128"
+                    ></circle>
+                    <polyline
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      points="134.1 161.9 168 128 134.1 94.1"
+                    ></polyline>
+                    <line
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      y2="128"
+                      x2="168"
+                      y1="128"
+                      x1="88"
+                    ></line>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 128 128"
+              >
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st1"
+                ></rect>
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st53"
+                ></rect>
+                <polygon
+                  points="116,62 116,35.4 38.1,18 22.1,18 5.8,91.3 76.2,107 106,107"
+                  class="st16"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st1"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st53"
+                ></polygon>
+                <g>
+                  <rect y="34" x="20" width="80" height="58" class="st7"></rect>
+                  <g>
+                    <polygon
+                      points="100.2,92 73.1,44.2 51.2,75.5 40,58.7 20.2,92 39.7,92"
+                      class="st9"
+                    ></polygon>
+                    <circle r="11" cy="52" cx="57" class="st18"></circle>
+                    <polygon
+                      points="40,58.5 31.6,72.6 34.6,78.2 37.9,75.2 43.5,79.9 47,78.2 51,75.2"
+                      class="st1"
+                    ></polygon>
+                    <path
+                      d="M57.7,66c0,0,4.1,7.2,4.3,6.6c0.2-0.6,6.1-5.6,6.1-5.6l6.9,3.6l1.5-10.3L88.9,72L73.1,44.1L57.7,66z"
+                      class="st1"
+                    ></path>
+                    <polygon
+                      points="73.1,44.2 83.6,92 100.2,92"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="100.2,91.9 73.1,44.1 39.7,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polyline
+                      points="51.2,75.4 40,58.5 20.2,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="51.2,75.4 40,58.5 47,81.3"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="51.5,91.9 67.1,70.5 80.4,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="72.3,92 67.1,70.7 80.4,92"
+                      class="st15"
+                    ></polygon>
+                  </g>
+                  <rect
+                    y="34"
+                    x="20"
+                    width="80"
+                    height="58"
+                    class="st53"
+                  ></rect>
+                </g>
+                <polygon points="111,37 97,37 97,23" class="st18"></polygon>
+                <polygon points="111,37 97,37 97,23" class="st53"></polygon>
+              </svg>
+            </div>
+            <div class="card__subtitle">Type of work</div>
+            <div class="card__wrapper">
+              <div class="card__title">Project name</div>
+              <div class="card__icon">
+                <svg
+                  color="rgb(224, 223, 220)"
+                  style="
+                    user-select: none;
+                    width: 100%;
+                    height: 100%;
+                    display: inline-block;
+                    fill: rgb(224, 223, 220);
+                    flex-shrink: 0;
+                    cursor: auto;
+                  "
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g color="rgb(224, 223, 220)">
+                    <circle opacity="0.2" r="96" cy="128" cx="128"></circle>
+                    <circle
+                      stroke-width="16"
+                      stroke-miterlimit="10"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      r="96"
+                      cy="128"
+                      cx="128"
+                    ></circle>
+                    <polyline
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      points="134.1 161.9 168 128 134.1 94.1"
+                    ></polyline>
+                    <line
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      y2="128"
+                      x2="168"
+                      y1="128"
+                      x1="88"
+                    ></line>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 128 128"
+              >
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st1"
+                ></rect>
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st53"
+                ></rect>
+                <polygon
+                  points="116,62 116,35.4 38.1,18 22.1,18 5.8,91.3 76.2,107 106,107"
+                  class="st16"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st1"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st53"
+                ></polygon>
+                <g>
+                  <rect y="34" x="20" width="80" height="58" class="st7"></rect>
+                  <g>
+                    <polygon
+                      points="100.2,92 73.1,44.2 51.2,75.5 40,58.7 20.2,92 39.7,92"
+                      class="st9"
+                    ></polygon>
+                    <circle r="11" cy="52" cx="57" class="st18"></circle>
+                    <polygon
+                      points="40,58.5 31.6,72.6 34.6,78.2 37.9,75.2 43.5,79.9 47,78.2 51,75.2"
+                      class="st1"
+                    ></polygon>
+                    <path
+                      d="M57.7,66c0,0,4.1,7.2,4.3,6.6c0.2-0.6,6.1-5.6,6.1-5.6l6.9,3.6l1.5-10.3L88.9,72L73.1,44.1L57.7,66z"
+                      class="st1"
+                    ></path>
+                    <polygon
+                      points="73.1,44.2 83.6,92 100.2,92"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="100.2,91.9 73.1,44.1 39.7,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polyline
+                      points="51.2,75.4 40,58.5 20.2,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="51.2,75.4 40,58.5 47,81.3"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="51.5,91.9 67.1,70.5 80.4,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="72.3,92 67.1,70.7 80.4,92"
+                      class="st15"
+                    ></polygon>
+                  </g>
+                  <rect
+                    y="34"
+                    x="20"
+                    width="80"
+                    height="58"
+                    class="st53"
+                  ></rect>
+                </g>
+                <polygon points="111,37 97,37 97,23" class="st18"></polygon>
+                <polygon points="111,37 97,37 97,23" class="st53"></polygon>
+              </svg>
+            </div>
+            <div class="card__subtitle">Type of work</div>
+            <div class="card__wrapper">
+              <div class="card__title">Project name</div>
+              <div class="card__icon">
+                <svg
+                  color="rgb(224, 223, 220)"
+                  style="
+                    user-select: none;
+                    width: 100%;
+                    height: 100%;
+                    display: inline-block;
+                    fill: rgb(224, 223, 220);
+                    flex-shrink: 0;
+                    cursor: auto;
+                  "
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g color="rgb(224, 223, 220)">
+                    <circle opacity="0.2" r="96" cy="128" cx="128"></circle>
+                    <circle
+                      stroke-width="16"
+                      stroke-miterlimit="10"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      r="96"
+                      cy="128"
+                      cx="128"
+                    ></circle>
+                    <polyline
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      points="134.1 161.9 168 128 134.1 94.1"
+                    ></polyline>
+                    <line
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      y2="128"
+                      x2="168"
+                      y1="128"
+                      x1="88"
+                    ></line>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 128 128"
+              >
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st1"
+                ></rect>
+                <rect
+                  y="24.7"
+                  x="13.1"
+                  width="101.2"
+                  transform="matrix(0.9761 0.2175 -0.2175 0.9761 15.4391 -12.3278)"
+                  height="78.6"
+                  class="st53"
+                ></rect>
+                <polygon
+                  points="116,62 116,35.4 38.1,18 22.1,18 5.8,91.3 76.2,107 106,107"
+                  class="st16"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st1"
+                ></polygon>
+                <polygon
+                  points="97.2,23 10,23 10,102 111,102 111,36.8"
+                  class="st53"
+                ></polygon>
+                <g>
+                  <rect y="34" x="20" width="80" height="58" class="st7"></rect>
+                  <g>
+                    <polygon
+                      points="100.2,92 73.1,44.2 51.2,75.5 40,58.7 20.2,92 39.7,92"
+                      class="st9"
+                    ></polygon>
+                    <circle r="11" cy="52" cx="57" class="st18"></circle>
+                    <polygon
+                      points="40,58.5 31.6,72.6 34.6,78.2 37.9,75.2 43.5,79.9 47,78.2 51,75.2"
+                      class="st1"
+                    ></polygon>
+                    <path
+                      d="M57.7,66c0,0,4.1,7.2,4.3,6.6c0.2-0.6,6.1-5.6,6.1-5.6l6.9,3.6l1.5-10.3L88.9,72L73.1,44.1L57.7,66z"
+                      class="st1"
+                    ></path>
+                    <polygon
+                      points="73.1,44.2 83.6,92 100.2,92"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="100.2,91.9 73.1,44.1 39.7,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polyline
+                      points="51.2,75.4 40,58.5 20.2,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="51.2,75.4 40,58.5 47,81.3"
+                      class="st15"
+                    ></polygon>
+                    <polyline
+                      points="51.5,91.9 67.1,70.5 80.4,91.9"
+                      class="st2"
+                    ></polyline>
+                    <polygon
+                      points="72.3,92 67.1,70.7 80.4,92"
+                      class="st15"
+                    ></polygon>
+                  </g>
+                  <rect
+                    y="34"
+                    x="20"
+                    width="80"
+                    height="58"
+                    class="st53"
+                  ></rect>
+                </g>
+                <polygon points="111,37 97,37 97,23" class="st18"></polygon>
+                <polygon points="111,37 97,37 97,23" class="st53"></polygon>
+              </svg>
+            </div>
+            <div class="card__subtitle">Type of work</div>
+            <div class="card__wrapper">
+              <div class="card__title">Project name</div>
+              <div class="card__icon">
+                <svg
+                  color="rgb(224, 223, 220)"
+                  style="
+                    user-select: none;
+                    width: 100%;
+                    height: 100%;
+                    display: inline-block;
+                    fill: rgb(224, 223, 220);
+                    flex-shrink: 0;
+                    cursor: auto;
+                  "
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g color="rgb(224, 223, 220)">
+                    <circle opacity="0.2" r="96" cy="128" cx="128"></circle>
+                    <circle
+                      stroke-width="16"
+                      stroke-miterlimit="10"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      r="96"
+                      cy="128"
+                      cx="128"
+                    ></circle>
+                    <polyline
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      points="134.1 161.9 168 128 134.1 94.1"
+                    ></polyline>
+                    <line
+                      stroke-width="16"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke="rgb(224, 223, 220)"
+                      fill="none"
+                      y2="128"
+                      x2="168"
+                      y1="128"
+                      x1="88"
+                    ></line>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- соціальні мережі, авторське право а також кнопка subscribe з інпутом -->
+      <div class="footer-wrapper">
+        <div class="social-media-cont">
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="35" height="35">
+                  <path
+                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="35" height="35">
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="35" height="35">
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <small>© 2025 TechScope</small>
+    </footer>
+    <script src="./src/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </body>
+</html>
